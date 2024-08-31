@@ -1,0 +1,17 @@
+{
+  "name": "merge-prisma-schema-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm --filter=example start"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9.5"
+  },
+  "repository": "git@github.com:JustinMartinDev/merge-prisma-schema.git",
+  "author": "Justin Martin <justin@kezios.fr>",
+  "license": "MIT"
+}

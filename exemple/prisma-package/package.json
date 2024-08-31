@@ -1,0 +1,23 @@
+{
+  "name": "prisma-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "ts-node": "catalog:",
+    "typescript": "catalog:",
+    "merge-prisma-schema": "workspace:",
+    "sub-package1": "workspace:",
+    "sub-package2": "workspace:"
+  },
+  "dependencies": {
+    "prisma": "^5.19.0"
+  }
+}

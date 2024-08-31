@@ -1,0 +1,10 @@
+# https://nx.dev/more-concepts/folder-structure
+# https://pnpm.io/workspaces
+packages:
+  - "package/"
+  - "exemple/*"
+
+catalog:
+  typescript: ^5.5.4
+  ts-node: ^10.9.2
+  "@types/node": "^22.5.1"

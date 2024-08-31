@@ -1,0 +1,29 @@
+{
+  "name": "merge-prisma-schema",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:JustinMartinDev/merge-prisma-schema.git",
+  "author": "Justin Martin <justin@kezios.fr>",
+  "license": "MIT",
+  "bin": {
+    "merge-prisma-schema": "dist/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "cosmiconfig": "^9.0.0"
+  }
+}
