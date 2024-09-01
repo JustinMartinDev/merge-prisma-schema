@@ -25,5 +25,9 @@
   },
   "dependencies": {
     "cosmiconfig": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=14.17.0",
+    "npm": ">=7.0.0"
   }
 }
